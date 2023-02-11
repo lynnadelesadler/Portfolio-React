@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    background-color: #84a8bd;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    flex-wrap: wrap;
+    font-family:'Cormorant+Garamon';
+  }
+  
+  /* sets the color Header Sadler to different color */
+  .seo {
+    color: #84a8bd;
+    font-style: italic;
+  }
+  
+  .navbar, .navbar-brand {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: aliceblue;
+    
+  }
+  
+  div.navbar-brand {
+    padding-top: 2em;
+    margin-bottom: 2em;
+    
+  }
+  
+  .navbar .navbar-brand > .navbar-item,
+  .navbar .navbar-brand .navbar-link {
+    display: inline-block;
+  }

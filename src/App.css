@@ -1,0 +1,40 @@
+/* Universal selector */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap'); 
+* {
+  box-sizing: border-box;
+  padding: o;
+  margin: 0;
+  font-family:'Raleway', sans-serif;
+  font-weight: 550;
+  font: 'black';
+ 
+}
+
+
+/* Creates space between paragraphs and UL */
+.space {
+    padding: 8px;
+    list-style: none;
+  }
+  /* Creates space and italics for the Moto in About Me Section */
+  .space-italic {
+    padding: 8px;
+    list-style: none;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .navbar {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: aliceblue;
+    
+  }
+  
+
+  
+  .navbar  .navbar-item,
+  .navbar .navbar-link {
+    display: inline-block;
+  }

@@ -1,0 +1,23 @@
+.navbar, .navbar-brand {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: aliceblue;
+    
+  }
+  
+  div.navbar-brand {
+    padding-top: 2em;
+    margin-bottom: 2em;
+    justify-content: center;
+    
+  }
+  
+  .navbar .navbar-brand > .navbar-item,
+  .navbar .navbar-brand .navbar-link {
+    display: inline-block;
+  }
+
+  .nav nav-tabs{
+    justify-content: center;
+  }

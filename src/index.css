@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    width: 100%;
+    background-color: #84a8bd;
+  
+  }
+  
+  .navbar, .navbar-brand {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: aliceblue;
+    
+  }
+  
+  div.navbar-brand {
+    padding-top: 2em;
+    margin-bottom: 2em;
+    
+  }
+  
+  .navbar .navbar-brand > .navbar-item,
+  .navbar .navbar-brand .navbar-link {
+    display: inline-block;
+  }
+  
+  main {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 50px 30px;
+
+  }
+  
+  
+  .label {
+    text-align: left;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .textarea {
+width: 90px; 
+height: 390px; 
+ 
+padding: 5px; 
+  }
+  
+  footer.footer {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 1024px) {
+      main {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+      }
+  }
