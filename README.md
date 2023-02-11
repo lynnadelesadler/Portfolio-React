@@ -16,7 +16,7 @@ https://github.com/lynnadelesadler/Sadlers-React-Portfolio
 
 The URL of the Deployed Github Page  ...
 
-https://lynnadelesadler.github.io/Sadlers-React-Portfolio/
+https://lynnadelesadler.github.io/Portfolio-React/
 
  
 ## Usage
