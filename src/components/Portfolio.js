@@ -17,7 +17,7 @@ const projectList  = [
     id: 1,
     title: "Covid Tracker",
     technologies: "COVID19 API, Reddit API, jQuery, Bootstrap and Moment.js",
-    image: "/Images/world-map-banner.jpg",
+    image: "./Images/world-map-banner.jpg",
     description: "Allows you to edit and post blogs. You can also leave comments on your own blog or the blogs of others.",
     github: "https://eaponte24.github.io/Covid-Tracker/",
     deployedLink: "https://github.com/Eaponte24/Covid-Tracker",

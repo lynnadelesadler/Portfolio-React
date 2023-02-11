@@ -2,6 +2,7 @@
     "name": "Sadlers-React-Portfolio",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://lynnadelesadler.github.io/Portfolio-React",
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.35",
         "@fortawesome/free-solid-svg-icons": "^5.15.3",
@@ -22,6 +23,8 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",    
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
