@@ -56,8 +56,17 @@ const projectList  = [
     image: "./Images/weather-dashboard.jpg",
     description: "This App uses a third party API from Open Weather to request weather data from cities searched. Users will be able to search for a city and see the current weather in addition to the five day forecast. A users search history is saved in local storage and added to a search history list as a button which can render the search data for that city.",
     github: "https://github.com/lynnadelesadler/Whats-Up-Weather",
-    deployedLink: "https://sadlers-note-taker.herokuapp.com/",
+    deployedLink: "https://lynnadelesadler.github.io/Whats-Up-Weather/",
   },
+  {
+  id: 6,
+  title: "Inspiration Generator",
+  technologies: "MERN Stack - React,GraphQL, Node.js,  Express.js, MongoDB, Mongoose ODM ",
+  image: "./Images/inspirations.jpg",
+  description: "This App uses a third party API from Flickr to request images. Users will be able to search and see list of images tagged with that search id. Images can be saved to their DB and they can review, like and comment on other users and images.",
+  github: "https://github.com/ScottsC0de/proj-3",
+  deployedLink: "https://af-ls-mj-sg-dp-proj-3.herokuapp.com/",
+},
 ];
 
 return (

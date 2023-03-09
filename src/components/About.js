@@ -31,6 +31,13 @@ function About() {
               alt="sailboat"
             />
           </Carousel.Item>
+          <Carousel.Item interval={500}>
+            <img
+              className="d-block w-100" data-bs-interval="20000"
+              src="./Images/skiing.jpg"
+              alt="skiing"
+            />
+          </Carousel.Item>
         </Carousel>
       </div>
 <div>
