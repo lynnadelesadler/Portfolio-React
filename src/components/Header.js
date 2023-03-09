@@ -23,7 +23,7 @@ function Header() {
       case "Portfolio":
         return <Portfolio />;
       case "Contact":
-        return <Contact />;
+        return <Contact  />;
       case "Resume":
         return <Resume />;
 
