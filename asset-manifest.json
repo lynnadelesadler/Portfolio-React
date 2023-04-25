@@ -1,17 +1,31 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.6dbec5c2.css",
-    "main.js": "/Portfolio-React/static/js/main.8ad8ce23.js",
+    "main.js": "/Portfolio-React/static/js/main.964384cc.js",
     "static/media/redrocks.jpg": "/Portfolio-React/static/media/redrocks.fae65af176018bd5d765.jpg",
     "static/media/sailboat.jpg": "/Portfolio-React/static/media/sailboat.2a8510cc71d3a0d9f291.jpg",
     "static/media/skiing2.jpg": "/Portfolio-React/static/media/skiing2.e74cefb238273138bfc3.jpg",
+    "static/media/the-venue.jpg": "/Portfolio-React/static/media/the-venue.e40415d6aae00ba224e5.jpg",
+    "static/media/npmRunStart.JPG": "/Portfolio-React/static/media/npmRunStart.4afd2dedd0c8e6ca4b86.JPG",
+    "static/media/scheduler.jpeg": "/Portfolio-React/static/media/scheduler.7683f4253de515335325.jpeg",
+    "static/media/world-map-banner.jpg": "/Portfolio-React/static/media/world-map-banner.83138f934c6cf6ce2732.jpg",
     "static/media/bookengine.jpg": "/Portfolio-React/static/media/bookengine.23dd9db934487f077ec4.jpg",
+    "static/media/DreamTeam.PNG": "/Portfolio-React/static/media/DreamTeam.8cda3893bd0b8dd249ad.PNG",
+    "static/media/homepage.jpeg": "/Portfolio-React/static/media/homepage.1b2df1b59f6781e0114b.jpeg",
+    "static/media/blog-space.jpg": "/Portfolio-React/static/media/blog-space.8d734449f17ead7634b7.jpg",
+    "static/media/app-questions.PNG": "/Portfolio-React/static/media/app-questions.8b73d3098cefe7699a53.PNG",
+    "static/media/employeetracker.jpeg": "/Portfolio-React/static/media/employeetracker.94d9243cd32d2b0edab9.jpeg",
+    "static/media/noSQL-socialnetwork.jpg": "/Portfolio-React/static/media/noSQL-socialnetwork.cac43a634f55057ec79b.jpg",
+    "static/media/weather-dashboard.jpg": "/Portfolio-React/static/media/weather-dashboard.9a52a398328cedaa34e2.jpg",
+    "static/media/password.png": "/Portfolio-React/static/media/password.aa25cbf89939def02f6b.png",
+    "static/media/inspirations.jpg": "/Portfolio-React/static/media/inspirations.37fe67a41df38fc44dff.jpg",
+    "static/media/note-taker.jpg": "/Portfolio-React/static/media/note-taker.a3744a973b602c77cc0a.jpg",
     "index.html": "/Portfolio-React/index.html",
     "main.6dbec5c2.css.map": "/Portfolio-React/static/css/main.6dbec5c2.css.map",
-    "main.8ad8ce23.js.map": "/Portfolio-React/static/js/main.8ad8ce23.js.map"
+    "main.964384cc.js.map": "/Portfolio-React/static/js/main.964384cc.js.map"
   },
   "entrypoints": [
     "static/css/main.6dbec5c2.css",
-    "static/js/main.8ad8ce23.js"
+    "static/js/main.964384cc.js"
   ]
 }
