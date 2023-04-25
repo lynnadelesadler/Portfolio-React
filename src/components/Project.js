@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import bookengine from '../images/bookengine.jpg';
+
 
 const Projects = ({ singleProject }) => {
   return (

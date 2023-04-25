@@ -21,6 +21,7 @@ import {
   SiGraphql,
 } from "react-icons/si";
 import { Container, Row, Col } from "react-bootstrap";
+import certificate from '../images/certificate.jpg';
 
 const styles = {
   background: {
