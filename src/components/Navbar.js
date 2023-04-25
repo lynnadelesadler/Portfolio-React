@@ -8,7 +8,7 @@ const styles = {
 };
 
 function Navigation(props) {
-  const tabs = ["About", "Portfolio", "Contact", "Resume"];
+  const tabs = ["About", "Portfolio","Resume", "Contact"];
   return (
     <div  className="navbar">
       <ul style={styles.navTab} className="nav nav-tabs">

@@ -47,7 +47,17 @@ function Resume() {
             <i className="fas fa-download"></i>
           </span>
           <span >Download My Resume</span>
-        </a></p>
+        </a>
+        <br></br>
+        <br></br>
+        <h5>Uconn Coding Boot Camp</h5>
+      <a className="button is-primary" href={process.env.PUBLIC_URL + "/Uconn Certificate - Lynn Sadler.pdf"} target="_blank" rel="noreferrer">
+          <span className="icon">
+            <i className="fas fa-download"></i>
+          </span>
+          <span >Download My Training Certificate</span>
+        </a>
+        </p>
     <p className="content" class="space" style={styles.background}>
       <h5>Skills</h5>
       <Container style={styles.container} className="container my-5">

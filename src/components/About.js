@@ -46,7 +46,7 @@ function About() {
 <div>
       <p className="content" class="space" style={styles.About}>
         <h5>Education</h5>
-        I am currently embarking on my journey as a full stack web developer through an accelerated 6 month bootcamp
+        I'm excited to have completed my journey to become a full stack web developer through an accelerated 6 month bootcamp
         program at UConn. My curiosity to dissect the user-facing systems tied to the back end of the
         application has driven me to obtain my skills in the Cross-discipline of Full Stack Development.
         Using my strong analytical skills, diligence and creative thinking, I am a driven to deliver
