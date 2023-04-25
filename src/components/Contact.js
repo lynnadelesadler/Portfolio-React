@@ -1,11 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import '../styles/Contact.css';
+import emailjs from '@emailjs/browser';
+// import * as dotenv from "dotenv";
+// dotenv.config();
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
 
-function Contact() {
-  // Create state variables for the fields in the form
+const Contact = () => {
+  const form = useRef();
+   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -28,57 +32,44 @@ function Contact() {
     }
   };
 
-  const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
+  const sendEmail = (e) => {
     e.preventDefault();
 
-    // First we check to see if the email is not valid or if the Name is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) && !name && !message) {
-      setErrorMessage('Email is invalid or name/message is empty');
-      // We want to exit out of this code block if something is wrong so that the user can correct it
-      return;
-    }
-    alert(`Thank you for your message ${name}`);
-
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
-    setName('');
-    setEmail('');
-    setMessage('');
+    emailjs
+      .sendForm(
+        "service_2ugdv5r",
+        "template_nylzckf",
+        form.current,
+        "0OxQSovRCG0W3Njik"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+          alert(`Thank you for your message!`);
+          // If everything goes according to plan, we want to clear out the input after a successful registration.
+          setName('');
+          setEmail('');
+          setMessage('');
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
     <div>
-      <h3>Hello {name}</h3>
-      <form className="form">
-        <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="name"
-        />
-        <input
-        value={email}
-        name="email"
-        onChange={handleInputChange}
-        type="email"
-        placeholder="email"
-        />
-        <input
-          value={message}
-          className="textarea"
-          name="message"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="message"
-        />
-        <button type="button" onClick={handleFormSubmit}>Send Message</button>
+       <h3>Hello {name}</h3>
+      <form className="form" ref= {form} onSubmit={sendEmail}>
+      <label>Name</label>
+        <input type="text" name="name" value={name}  onChange={handleInputChange}/>
+        <label>Email</label>
+        <input type="email" name="email" value={email}  onChange={handleInputChange}/>
+        <label>Message</label>
+        <input className="textarea"name="message" value={message}  onChange={handleInputChange} />
+        <input type="submit" value="Send" />
       </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
     </div>
   );
 }

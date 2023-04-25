@@ -8,7 +8,7 @@ const Projects = ({ singleProject }) => {
     <Card
       style={{
         width: "20rem",
-        margin: "20px 50px 20px 10px", backgroundColor: "#aliceblue" 
+        margin: "20px 20px 20px 50px", backgroundColor: "#aliceblue" 
       }}
       key={singleProject.title} className="col-3"
     >

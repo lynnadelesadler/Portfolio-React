@@ -1,6 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
+import redrocks from '../images/redrocks.jpg';
+import sailboat from '../images/sailboat.jpg';
+import skiing2 from '../images/skiing2.jpg';
 
 
 const styles = {
@@ -19,7 +22,7 @@ function About() {
           <Carousel.Item interval={1500}>
             <img
               className="d-block w-100" data-bs-interval="10000"
-              src="./Images/redrocks.jpg"
+              src={redrocks}
               alt="redrocks"
             />
 
@@ -27,14 +30,14 @@ function About() {
           <Carousel.Item interval={500}>
             <img
               className="d-block w-100" data-bs-interval="20000"
-              src="./Images/sailboat.jpg"
+              src={sailboat}
               alt="sailboat"
             />
           </Carousel.Item>
           <Carousel.Item interval={500}>
             <img
               className="d-block w-100" data-bs-interval="20000"
-              src="./Images/skiing.jpg"
+              src={skiing2}
               alt="skiing"
             />
           </Carousel.Item>

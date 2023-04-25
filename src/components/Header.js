@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import '../styles/Header.css';
+import React, { useState } from "react";
+import "../styles/Header.css";
 import NavBar from "./Navbar";
 import About from "./About";
 import Contact from "./Contact";
-import Portfolio from "./Portfolio";
 import Resume from "./Resume";
+import MainPortfolio from "./MainPortfolio";
 
 const styles = {
   header: {
-    backgroundColor: "#84a8bd"
+    backgroundColor: "#84a8bd",
   },
 };
 
@@ -21,9 +21,9 @@ function Header() {
       case "About":
         return <About />;
       case "Portfolio":
-        return <Portfolio />;
+        return <MainPortfolio />;
       case "Contact":
-        return <Contact  />;
+        return <Contact />;
       case "Resume":
         return <Resume />;
 
@@ -42,15 +42,14 @@ function Header() {
             target="_blank"
             href="https://github.com/lynnadelesadler"
           >
-            <h1 >Lynn<span class="seo"> Sadler</span></h1>
+            <h1>
+              Lynn<span class="seo"> Sadler</span>
+            </h1>
           </a>
         </div>
       </nav>
       {/* Pass the state value and the setter as props to NavTabs */}
-      <NavBar
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
+      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Call the renderPage function passing in the currentPage */}
       <main>
         <div>{renderPage(currentPage)}</div>
