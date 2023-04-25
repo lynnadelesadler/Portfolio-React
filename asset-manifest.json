@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.6dbec5c2.css",
-    "main.js": "/Portfolio-React/static/js/main.964384cc.js",
+    "main.js": "/Portfolio-React/static/js/main.d4e09ac6.js",
     "static/media/redrocks.jpg": "/Portfolio-React/static/media/redrocks.fae65af176018bd5d765.jpg",
     "static/media/sailboat.jpg": "/Portfolio-React/static/media/sailboat.2a8510cc71d3a0d9f291.jpg",
     "static/media/skiing2.jpg": "/Portfolio-React/static/media/skiing2.e74cefb238273138bfc3.jpg",
+    "static/media/certificate.jpg": "/Portfolio-React/static/media/certificate.6510a2cd251db4f9caa0.jpg",
     "static/media/the-venue.jpg": "/Portfolio-React/static/media/the-venue.e40415d6aae00ba224e5.jpg",
     "static/media/npmRunStart.JPG": "/Portfolio-React/static/media/npmRunStart.4afd2dedd0c8e6ca4b86.JPG",
     "static/media/scheduler.jpeg": "/Portfolio-React/static/media/scheduler.7683f4253de515335325.jpeg",
@@ -22,10 +23,10 @@
     "static/media/note-taker.jpg": "/Portfolio-React/static/media/note-taker.a3744a973b602c77cc0a.jpg",
     "index.html": "/Portfolio-React/index.html",
     "main.6dbec5c2.css.map": "/Portfolio-React/static/css/main.6dbec5c2.css.map",
-    "main.964384cc.js.map": "/Portfolio-React/static/js/main.964384cc.js.map"
+    "main.d4e09ac6.js.map": "/Portfolio-React/static/js/main.d4e09ac6.js.map"
   },
   "entrypoints": [
     "static/css/main.6dbec5c2.css",
-    "static/js/main.964384cc.js"
+    "static/js/main.d4e09ac6.js"
   ]
 }
