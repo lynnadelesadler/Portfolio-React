@@ -12,6 +12,7 @@ const projectList  = [
     technologies: "MERN Stack - React, GraphQL, Node.js,  Express.js, Google Books API, MongoDB, Mongoose ODM",
     image:bookengine,
     description: "This App uses the Google Books API search engine connected with a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. The app allow users to save book searches to the back end.",
+    github: "https://github.com/lynnadelesadler/Sadler-Book-Search-Engine",
     deployedLink: "https://powerful-taiga-10980.herokuapp.com/",
   },
   {

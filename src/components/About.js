@@ -46,9 +46,9 @@ function About() {
 <div>
       <p className="content" class="space" style={styles.About}>
         <h5>Education</h5>
-        I'm excited to have completed my journey to become a full stack web developer through an accelerated 6 month bootcamp
-        program at UConn. My curiosity to dissect the user-facing systems tied to the back end of the
-        application has driven me to obtain my skills in the Cross-discipline of Full Stack Development.
+        Graduating from a 24-week rigorous full stack coding bootcamp through the University of Connecticut 
+        Department of Engineering, I obtained skills such as Node.JS, JavaScript and React. With the Agile
+        methodology, I collaborated with other developers to conceive and execute designs that solve real-world problems.
         Using my strong analytical skills, diligence and creative thinking, I am a driven to deliver
         solutions for aesthetically pleasing UI tied to clean code of the back frame.
         <br></br><br></br>Bachelor of Science Business Administration <br></br>
